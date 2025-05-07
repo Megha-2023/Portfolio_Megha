@@ -1,0 +1,13 @@
+List of Views:
+- Home (GitHub, LinkedIn)
+- About
+---> Description about myself example (https://brittanychiang.com/#about) 
+
+- Experience (Model: startdate, enddate(opt), Title, Employer, job-description)
+- Competences ( Model: Category - name, Model: Skill - cat_id(FK), name)
+- Projects ( Model: Project - name, skills(FK)(many), description, github_url, live_url)
+- Contact (email, phone, location)
+
+
+NEXT:
+- FrontEnd
